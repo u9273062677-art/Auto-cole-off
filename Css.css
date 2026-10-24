@@ -1,0 +1,529 @@
+body {
+    background-color: #F5F3EF;
+}
+
+header {
+    background-color: #F5F3EF;
+    
+   
+}
+
+nav{ 
+   
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #E4E7EA;
+}
+
+.Conteneur2 {
+    display: flex;
+    gap: 20PX;
+}
+
+.Bouton2, .Bouton  {
+    color: #3B3230;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Open Sans;
+}
+
+.Bouton {
+    background-color: #B08D57;
+    padding: 15px ;
+    border-radius: 5px;
+}
+
+.Bouton1 {
+    width: 50px;
+}
+
+.Bout {
+    background-color: #B08D57;
+    padding: 15px ;
+    border-radius: 5px;
+    color: #3B3230;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Open Sans;
+}
+
+.Bouton3 {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Open Sans;
+    color: #B08D57;
+    border-bottom: 2px solid #B08D57;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F5F3EF;
+    margin: 15px;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+@media screen and (max-width: 1350px) { .main1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+   }
+}
+
+@media screen and (max-width: 1350px) { .Bouton2, .Bouton3, .Bouton {
+    display: none;
+
+   }
+}
+
+.Titre {
+    color: #3B3230;
+    font-family: Playfair Display;
+    font-size: 3em;
+
+
+}
+
+.Nom {
+    color: #B08D57;
+    font-family: Open Sans;
+
+}
+
+.Forfait {
+    text-decoration: none;
+    border: 2px solid #B08D57;
+    padding: 15px ;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #3B3230;
+    font-family: Open Sans;
+}
+
+.Bouton5 {
+    display: flex;
+    gap: 20px;
+}
+
+.Text {
+    font-family: Open Sans;
+    color: #3B3230;
+    font-size: large;
+
+}
+.AUTO-ÉCOLE {
+    border-radius: 15px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E4E7EA;
+    border-radius: 13px;
+
+
+}
+.A {
+    font-size: 2.5em;
+    font-family: Playfair Display;
+    color: #3B3230;
+    
+}
+
+.B {
+    font-size: 1em;
+    font-family: Open Sans ;
+    color: #3B3230;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+
+.A1 {
+
+    background-color: #E4E7EA;
+    padding: 15px ;
+    border-radius: 15px;
+    height: 200 px;
+    width: 300px;
+
+}
+
+.A2 {
+    display: flex;
+    background-color: #B08D57;
+    color:#3B3230 ;
+    padding: 15px ;
+    border-radius: 30px;
+    width: 20px;
+   
+}
+
+.titre2 {
+     font-family: Playfair Display;
+    color: #3B3230 ;
+    font-size: 2em;
+    padding: 20px;
+
+}
+
+.titre3 {
+    font-family: Playfair Display;
+    color: #3B3230 ;
+    font-size: 1.3em;
+    margin: 3px;
+    height: 20px;
+}
+
+.B2 {
+    font-family: Open Sans ;
+    color: #3B3230 ;
+    font-size: 1em;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 150px;
+
+
+}
+
+.list1 {
+    list-style: none;
+    color: #3B3230;
+    font-size: 1em;
+    font-family: Open Sans;
+    padding: 15px;
+    height: 80px;
+}
+
+.liste2 {
+    list-style: none;
+    color: #F5F3EF;
+    font-size: 1em;
+    font-family: Open Sans;
+    padding: 15px;
+    height: 80px;
+}
+
+.D2 {
+    background-color: #3B3230 ;
+    padding: 15px ;
+    border-radius: 15px;
+    height: 200 px;
+    width: 300px;
+}
+
+
+.D1 {
+    background-color: #E4E7EA;
+    padding: 15px ;
+    border-radius: 15px;
+    height: 200 px;
+    width: 300px;
+}
+
+.T3 {
+    font-family: Playfair Display;
+    color: #F5F3EF ;
+    font-size: 1.3em;
+    margin: 3px;
+    height: 30px;
+    
+}
+
+.T4 {
+    font-family: Playfair Display;
+    color: #3B3230 ;
+    font-size: 1.3em;
+    margin: 3px;
+    height: 30px;
+}
+
+.P1 {
+    font-family: Open Sans;
+    color: #E4E7EA ;
+    font-size: 1em;
+    margin: 3px;
+    height: 10px;
+    
+
+}
+
+.P2 {
+    font-family: Open Sans;
+    color: #3B3230 ;
+    font-size: 1em;
+    margin: 3px;
+    height: 10px;
+}
+
+
+.Titre10 {
+    font-family: Playfair Display;
+    margin: 10px;
+    color: #3B3230;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.Titre8 {
+    font-family: Playfair Display;
+    margin: 10px;
+    color: #B08D57;
+    font-size: 2em;
+
+
+}
+
+.Bouton7 {
+    background-color: #B08D57;
+    padding: 15px ;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #3B3230;
+    text-align: center;
+    display: flex;
+    font-size: large;
+    font-family: open sans;
+    margin: 15px;
+
+}
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 150px;
+    margin: 40px;
+    
+
+}
+
+.Note {
+    background-color: #FFFFFF;
+    height:230px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 380px;
+    
+}
+
+.étoile {
+    color: #B08D57;
+    font-family: open sans ;
+    font-size: 1.3em;
+    height: 20px;
+    margin: 1px;
+
+}
+
+.Y {
+     color: #3B3230;
+    font-family: open sans ;
+    font-size: 1em;
+
+}
+
+.X {
+     color: #3B3230;
+    font-family: open sans ;
+    font-size: 1em;
+
+
+}
+
+.Titre9 {
+    font-family: Playfair Display;
+    margin: 10px;
+    color: #3B3230;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.section5 {
+    background-color: #B08D57;
+    border-radius: 13px;
+    height: 150px;
+
+}
+
+.Titre88 {
+    font-family: Playfair Display;
+    margin: 10px;
+    color: #3B3230;
+    font-size: 2em;
+    padding: 15px;
+}
+
+.U {
+    font-family: Open Sans;
+    color: #3B3230;
+    font-size: large;
+    margin: 30px;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    height: 500px;
+}
+
+.Infos {
+    font-family: Open Sans;
+    color: #3B3230;
+    font-size: large;
+}
+
+Footer {
+    background-color: #3B3230 ;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.L2 {
+    list-style: none;
+    
+}
+
+.lien {
+    text-decoration: none;
+    color: #F5F3EF;
+}
+
+.DZ {
+    font-size: large;
+    font-family: Open sans;
+    color : #F5F3EF;
+ 
+}
+
+.T10 {
+    font-family: Open sans;
+    color: #B08D57;
+    font-size: 1em;
+}
+
+.T8 {
+    color: #F5F3EF;
+    font-family: Playfair Display;
+    font-size: 1.5em;
+    height: 20px;
+}
+
+.A90 {
+    color: #F5F3EF;
+    font-family: Open sans;
+    font-size: 0.8em;
+    height: 60px;
+
+}
+.Mention-légal {
+    color: #F5F3EF;
+    font-family: Open sans;
+    font-size: 0.8em;
+}
+
+.M {
+    height: 530px ;
+}
+
+.table1 {
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+    
+
+}
+
+.TT1 {
+    color: 3B3230;
+    font-family: Open sans;
+    font-size: 1.5em;
+    margin: 15px;
+    padding: 15px;
+    border-bottom: 2px solid #E4E7EA;
+    text-align: left;
+    
+    
+}
+
+.TT2 {
+    color: #B08D57;
+    font-family: Open sans;
+    font-size: 1.5em;
+    margin: 15px;
+    padding: 15px;
+    border-bottom: 2px solid #E4E7EA;
+    text-align: right;
+}
+
+.Y2 {
+    height: 350px;
+}
+
+.list12 {
+    list-style: none;
+    color: #3B3230;
+    font-size: 1em;
+    font-family: Open Sans;
+    padding: 15px;
+    height: 150px;
+}
+
+.liste22 {
+    list-style: none;
+    color: #F5F3EF;
+    font-size: 1em;
+    font-family: Open Sans;
+    padding: 15px;
+    height: 150px;
+}
+
+.TT5 {
+    font-family: Playfair Display;
+    margin: 10px;
+    color: #3B3230;
+    font-size: 1.5em;
+    padding: 15px;
+
+}
+
+.TT7 {
+     font-family: Open sans;
+    margin: 10px;
+    color: #3B3230;
+    font-size: 1.3em;
+    margin:30px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.TTT8 {
+    height: 30px;
+    padding: 15px;
+}
