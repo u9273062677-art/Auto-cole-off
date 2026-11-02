@@ -533,7 +533,7 @@ nav {
     }
 
     .T15 {
-        height: 100px;
+        height: 320px;
     }
 
 }
@@ -560,6 +560,21 @@ nav {
     color: #3B3230;
     margin: 20px;
 }
+
+/*Mobile*/
+
+@media screen and (max-width: 1000px) {
+
+
+    .T17 {
+        font-size: large;
+    }
+    .T18 {
+        font-size: 0.7em;
+    }
+
+}
+
 
 /*section8*/
 /*ordinateur*/
@@ -598,6 +613,11 @@ nav {
     .section7 {
         grid-template-columns: 1fr;
         gap: 15px;
+    }
+    .chiche {
+        display: flex;
+        height: 550px;
+        width: 300px;
     }
 
 }
@@ -773,8 +793,13 @@ footer {
 
 @media screen and (max-width: 1000px) {
 
-    .table1 {
-        height: 300px;
+    .liste22, .liste12 {
+        height: 130px;
+        font-size: 0.8em;
+    }
+
+    .Y2 {
+        height: 500px;
     }
 
 }
