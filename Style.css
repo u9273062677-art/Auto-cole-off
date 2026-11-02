@@ -708,7 +708,7 @@ footer {
     padding-left: 1px;
     color: #3B3230;
     font-size: 1.5em;
-    height: 180px;
+    height: 230px;
 }
 
 .liste22 {
@@ -717,7 +717,7 @@ footer {
     padding-left: 1px;
     color: #F5F3EF;
     font-size: 1.5em;
-    height: 180px;
+    height: 230px;
 }
 
 
@@ -769,6 +769,17 @@ footer {
     height: 350px;
 }
 
+/*mobile*/
+
+@media screen and (max-width: 1000px) {
+
+    .table1 {
+        height: 300px;
+    }
+
+}
+
+
 /*section 11*/
 /*ordinateur*/
 
@@ -798,6 +809,7 @@ footer {
     font-family: Open sans;
     font-size: 1em;
 }
+
 
 
 /*section 12*/
